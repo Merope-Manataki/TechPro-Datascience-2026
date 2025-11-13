@@ -1,0 +1,12 @@
+
+def max(numbers_list):
+   max_temp = numbers_list[0]
+   for i in range(len(numbers_list)):
+      if numbers_list[i] > max_temp:
+         max_temp = numbers_list[i]
+   return max_temp
+
+x = [3,6,1,6,37,8,48,8,2,7,3,35]
+print(f"the max value is {max(x)}")
+# ftiakse 3 input
+# printare to max tous
